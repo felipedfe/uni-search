@@ -2,4 +2,4 @@
 
 const openSearch = require("../src/openSearch");
 
-openSearch("https://pt.wikipedia.org/w/index.php?search=%s", process.argv.slice(2));
+openSearch("https://en.wikipedia.org/w/index.php?search=%s", process.argv.slice(2));

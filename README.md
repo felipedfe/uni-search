@@ -6,7 +6,7 @@ Available commands:
 
 - `goo`: search on Google
 - `yt`: search on YouTube
-- `wiki`: search on Wikipedia (pt-BR)
+- `wiki`: search on Wikipedia (English)
 - `uni`: utility command to manage custom search providers
 
 ## Requirements
