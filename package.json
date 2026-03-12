@@ -1,0 +1,25 @@
+{
+  "name": "uni-search",
+  "version": "1.0.0",
+  "description": "Search websites directly from the terminal",
+  "main": "index.js",
+  "bin": {
+    "goo": "./bin/goo.js",
+    "uni": "./bin/uni.js",
+    "wiki": "./bin/wiki.js",
+    "yt": "./bin/yt.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "cli",
+    "search",
+    "terminal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^10.2.0"
+  }
+}
