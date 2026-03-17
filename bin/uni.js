@@ -127,6 +127,7 @@ function removeCommand(commandName, force) {
 
 function main() {
   const [, , action, commandName, ...rest] = process.argv;
+  console.log("main() / process.argv: ", process.argv)
 
   if (action === "add") {
     const urlTemplate = rest.join(" ").trim();
